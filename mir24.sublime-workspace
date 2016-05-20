@@ -1,0 +1,893 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Co",
+				"Contribution"
+			],
+			[
+				"mode",
+				"model"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"M",
+				"contribution_moderation"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"con",
+				"Contribution"
+			],
+			[
+				"З",
+				"Заявитель"
+			],
+			[
+				"to",
+				"toDoList"
+			],
+			[
+				"find",
+				"findFirst"
+			],
+			[
+				"P",
+				"Participant"
+			],
+			[
+				"mo",
+				"moderation"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"sq",
+				"sqlRows"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"s",
+				"switch	switch …"
+			],
+			[
+				"mi",
+				"minAge"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"co",
+				"cookies"
+			],
+			[
+				"vot",
+				"votedAt"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"la",
+				"lastVote"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"setco",
+				"setcookie"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"pro",
+				"props	React: this.props."
+			],
+			[
+				"n",
+				"nextProps"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"new",
+				"newValue"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"ha",
+				"handleBlur"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"han",
+				"handleChange"
+			],
+			[
+				"button",
+				"button"
+			],
+			[
+				"arch",
+				"archive"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"ech",
+				"echo"
+			],
+			[
+				"order",
+				"order1"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"li",
+				"limitQuery"
+			],
+			[
+				"nu",
+				"numberPageQuery"
+			],
+			[
+				"num",
+				"numberPage"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"arr",
+				"arrayName"
+			],
+			[
+				"v",
+				"value2"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"u",
+				"urlAr"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"get",
+				"getUrl"
+			],
+			[
+				"token",
+				"tokenUrl"
+			],
+			[
+				"curre",
+				"currentUrl"
+			],
+			[
+				"strip",
+				"stripos"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"is_n",
+				"is_null"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"url",
+				"urlComp"
+			],
+			[
+				"ur",
+				"urlBase"
+			],
+			[
+				"desc",
+				"desc"
+			],
+			[
+				"tm",
+				"tmp2"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"premie",
+				"premiere_id"
+			],
+			[
+				"pritn",
+				"print_r"
+			],
+			[
+				"print_",
+				"print_r"
+			],
+			[
+				"get_cl",
+				"get_class_methods"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"create",
+				"created_by"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"tti",
+				"title"
+			],
+			[
+				"edi",
+				"editor_id"
+			],
+			[
+				"cha",
+				"changes"
+			],
+			[
+				"premi",
+				"premiere"
+			],
+			[
+				"get_class",
+				"get_class"
+			],
+			[
+				"get_",
+				"get_class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 183.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 925.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/akonshin/www/mir24"
+	],
+	"file_history":
+	[
+		"/home/akonshin/www/mir24/mir24.sublime-project",
+		"/home/akonshin/www/mir24/readme.md",
+		"/home/akonshin/Documents/not_passwords.txt",
+		"/home/akonshin/www/quickstart/app/Task.php",
+		"/etc/apache2/sites-available/000-default.conf",
+		"/home/akonshin/www/quickstart/composer.json",
+		"/home/akonshin/www/quickstart/database/migrations/2016_05_16_124234_create_revisions_table.php",
+		"/home/akonshin/www/quickstart/phpunit.xml",
+		"/home/akonshin/www/quickstart/tests/ExampleTest.php",
+		"/home/akonshin/www/quickstart/app/Http/Controllers/Auth/AuthController.php",
+		"/home/akonshin/www/quickstart/.env",
+		"/home/akonshin/Downloads/123",
+		"/home/akonshin/www/quickstart/app/User.php",
+		"/home/akonshin/www/quickstart/resources/views/auth/register.blade.php",
+		"/home/akonshin/www/quickstart/public/.htaccess",
+		"/home/akonshin/www/quickstart/resources/views/auth/emails/password.blade.php",
+		"/home/akonshin/www/quickstart/resources/views/auth/passwords/email.blade.php",
+		"/home/akonshin/www/quickstart/app/Http/routes.php",
+		"/home/akonshin/www/quickstart/app/Http/Middleware/Authenticate.php",
+		"/home/akonshin/www/quickstart/config/app.php",
+		"/home/akonshin/www/quickstart/config/view.php",
+		"/home/akonshin/www/quickstart/app/Http/Requests/Request.php",
+		"/home/akonshin/www/quickstart/resources/views/auth/login.blade.php",
+		"/home/akonshin/www/quickstart/resources/views/welcome.blade.php",
+		"/home/akonshin/www/quickstart/resources/views/home.blade.php",
+		"/home/akonshin/www/quickstart/app/Providers/AuthServiceProvider.php",
+		"/home/akonshin/www/quickstart/app/Policies/TaskPolicy.php",
+		"/home/akonshin/www/quickstart/app/Http/Controllers/TaskController.php",
+		"/home/akonshin/www/quickstart/app/Repositories/TaskRepository.php",
+		"/home/akonshin/www/quickstart/resources/views/common/errors.blade.php",
+		"/home/akonshin/www/quickstart/database/migrations/2016_05_16_070658_create_tasks_table.php",
+		"/home/akonshin/www/quickstart/app/Http/Kernel.php",
+		"/home/akonshin/www/quickstart/resources/views/app.blade.php",
+		"/home/akonshin/www/quickstart/resources/views/tasks/index.blade.php",
+		"/home/akonshin/www/quickstart/resources/views/layouts/app.blade.php",
+		"/home/akonshin/www/quickstart/app/Http/Middleware/RedirectIfAuthenticated.php",
+		"/home/akonshin/www/quickstart/public/index.php",
+		"/home/akonshin/www/quickstart/config/database.php",
+		"/home/akonshin/www/quickstart/config/auth.php",
+		"/home/akonshin/www/quickstart/storage/logs/laravel.log",
+		"/home/akonshin/www/quickstart/readme.md",
+		"/home/akonshin/www/quickstart/server.php",
+		"/home/akonshin/www/quickstart/artisan",
+		"/home/akonshin/www/quickstart/config/services.php",
+		"/etc/apt/sources.list.d/docker.list",
+		"/etc/apache2/apache2.conf",
+		"/etc/phpmyadmin/lighttpd.conf",
+		"/home/akonshin/www/quickstart/database/migrations/2016_05_13_081530_create_tasks_table.php",
+		"/home/akonshin/www/server/composer.json",
+		"/home/akonshin/www/server/get.php",
+		"/home/akonshin/www/server/views/email/register.phtml",
+		"/etc/elasticsearch/logging.yml",
+		"/etc/elasticsearch/elasticsearch.yml",
+		"/home/akonshin/www/contest-server/views/email/register.phtml",
+		"/home/akonshin/www/contest-server/tasks/MailTask.php",
+		"/home/akonshin/teleprogramm_sync.log",
+		"/etc/hosts",
+		"/home/akonshin/test.log",
+		"/home/akonshin/~test.log",
+		"/etc/mysql/my.cnf",
+		"/etc/php5/apache2/php.ini",
+		"/home/akonshin/Downloads/teleprogramm_mirhd.sql",
+		"/home/akonshin/.homestead/Homestead.yaml",
+		"/home/akonshin/.notify-osd",
+		"/etc/postgresql/9.3/main/postgresql.conf",
+		"/home/akonshin/www/server/post.php",
+		"/home/akonshin/www/blog/public/.htaccess",
+		"/home/akonshin/www/blog/.htaccess",
+		"/home/akonshin/.bashrc",
+		"/home/akonshin/www/blog/config/app.php",
+		"/home/akonshin/www/blog/.env",
+		"/home/akonshin/www/server/put.php",
+		"/home/akonshin/www/server/config/phinx.yml",
+		"/home/akonshin/www/server/config/loader.php",
+		"/home/akonshin/www/server/config/config-cli.php",
+		"/home/akonshin/www/server/config/config.php",
+		"/home/akonshin/www/server/phinx.yml",
+		"/home/akonshin/Downloads/node-v4.4.3-linux-x64/bin/npm",
+		"/home/akonshin/Downloads/node-v4.4.3-linux-x64/README.md",
+		"/home/akonshin/Downloads/installer",
+		"/etc/php5/cli/php.ini",
+		"/etc/php5/apache2/conf.d/20-phalcon.ini",
+		"/var/www/html/contest-server/app.php",
+		"/var/www/html/server/composer.json",
+		"/var/www/html/server/models/Contribution.php",
+		"/var/www/html/server/models/Participant.php",
+		"/var/www/html/server/log/app.log",
+		"/var/www/html/server/models/StairwayToModeration.php",
+		"/var/www/html/server/models/Declarant.php",
+		"/var/www/html/server/models/Vote.php",
+		"/var/www/html/server/models/JobQueue.php",
+		"/home/akonshin/Downloads/phpPgAdmin-5.1/INSTALL",
+		"/home/akonshin/Downloads/phpPgAdmin-5.1/conf/config.inc.php",
+		"/var/www/html/server/app.php",
+		"/var/www/html/server/get.php",
+		"/opt/postgresql/pg95/pg95.env",
+		"/var/www/html/server/views/bot_detail.phtml",
+		"/var/www/html/server/post.php",
+		"/var/www/html/server/put.php",
+		"/var/www/html/server/config/services.php",
+		"/var/www/html/server/public/index.html",
+		"/var/www/html/server/config/config.php",
+		"/var/www/html/server/views/detail.phtml",
+		"/var/www/html/server/views/index.html",
+		"/var/www/html/server/public/.htaccess",
+		"/var/www/html/server/views/404.phtml",
+		"/var/www/html/server/public/index.php",
+		"/var/www/html/server/views/index.phtml",
+		"/var/www/html/server/.htaccess",
+		"/var/www/html/contest-server/public/.htaccess",
+		"/var/www/html/contest-server/.htaccess",
+		"/home/akonshin/mirtv/apps/frontend/views/frontend-video/video.phtml",
+		"/var/www/html/server/tasks/MailTask.php",
+		"/var/www/html/server/cli.php",
+		"/var/www/html/server/config-templates/services.php",
+		"/var/www/html/server/config-templates/loader.php",
+		"/var/www/html/server/config-templates/config-cli.php",
+		"/var/www/html/server/config/config-cli.php",
+		"/var/www/html/server/config-templates/config.php",
+		"/var/www/html/contest-server/db/migrations/moderation_stack_grouped_priority_desc.sql",
+		"/var/www/html/server/db/migrations/20160422103607_stairway_time_null.php",
+		"/var/www/html/contest-server/log/app.log",
+		"/etc/apache2/sites-available/mirtv.conf",
+		"/home/akonshin/dev-fotobank/composer.json",
+		"/var/www/html/server/vendor/composer/autoload_namespaces.php",
+		"/home/akonshin/dev-fotobank/apps/frontend/controllers/MfImageController.php",
+		"/home/akonshin/dev-fotobank/vendor/composer/autoload_namespaces.php",
+		"/home/akonshin/dev-fotobank/apps/frontend/models/MfImage.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"app.url",
+			"log",
+			"servern",
+			"mir24",
+			"25",
+			"max",
+			"xdeb",
+			"sea",
+			"short",
+			"ini",
+			"find",
+			"vote",
+			"contrib",
+			"count()",
+			"count(",
+			"Crit",
+			"Cri",
+			"bind",
+			"criti",
+			"Save operation failed",
+			"Imagick",
+			"jpg",
+			"size",
+			"die",
+			"contri",
+			"PhotoInfo",
+			"handlePhotoInfoChange",
+			"photoInfo",
+			"handlePhotoInfoChange",
+			"className",
+			"floatingLabelText",
+			"react-addons",
+			"chokidar",
+			"fsevents",
+			"handlePhotoInfoChange",
+			"handleAddParticipant",
+			"handlePhotoInfoChange",
+			"contrib",
+			"photo",
+			"contrib",
+			"cont",
+			"photoIn",
+			"put",
+			"image",
+			"id",
+			"}\n",
+			"reg",
+			"$result[] = $modelResult;",
+			"&&",
+			"::",
+			"!!!",
+			"api/v1/declarant/",
+			"photo",
+			"Imagick",
+			"task",
+			"list",
+			"todo",
+			"list",
+			"todo",
+			"tod",
+			" and ",
+			"die",
+			"created",
+			"cre",
+			"created",
+			"queue",
+			"que",
+			"queue",
+			"job",
+			"contri",
+			"зарестрировать",
+			"coo",
+			"LoginCookieValidity",
+			"&&",
+			"specif",
+			"AUTO_INCREMENT=",
+			"findfirst",
+			"err",
+			"valid",
+			"stream",
+			"find",
+			"saver",
+			"post",
+			"add",
+			"update",
+			"getList",
+			"(get) getList",
+			"get",
+			"$stairway",
+			"post",
+			"drop",
+			"metada",
+			"[0]",
+			"font",
+			"=[",
+			"gall",
+			"timel",
+			"`contestadmin`@`%`",
+			"hash",
+			"moderation_stack_filtered_with_priority",
+			"agen",
+			"try",
+			"age-r",
+			"vote",
+			"age",
+			"tooltiptext",
+			"age",
+			"Child",
+			"0",
+			"ya-share",
+			"Vote save success",
+			"root`@`%",
+			"contestadmin",
+			"logger",
+			"competitivework",
+			"from",
+			"gall",
+			"from",
+			"sqlStatement",
+			"from",
+			"FROM",
+			"<?=$_SERVER[\"SERVER_NAME\"]?>",
+			"?=$_SERVER[\"SERVER_NAME\"",
+			"http://<?=$_SERVER[\"SERVER_NAME\"]?><?= $targetWork['webPath'] ?>",
+			"inac",
+			"pagi",
+			"404",
+			"prev_page_offset"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" && ",
+			"зарегистрировать",
+			"and",
+			"findFirst",
+			"put",
+			"(post) add",
+			"(put) update",
+			"(post) update",
+			"(get) getList",
+			"getList",
+			"(get) get",
+			"`root`@`localhost`",
+			"root`@`localhost",
+			"root",
+			"konkurs.mir24.tv",
+			"$",
+			"Archieve",
+			"http://dev-fotobank.mirtv.ru",
+			"dir\"]",
+			"order[\"dir1\"]",
+			"order[\"order1\"]",
+			"order[\"order\"]",
+			"order[\"way\"]",
+			"order[\"order\"]",
+			"order[\"dir1\"]",
+			"order[\"order1\"]",
+			"$urlFragments",
+			"$sortQuery",
+			"[",
+			"dir",
+			"",
+			"[",
+			"$this->request->getQuery()",
+			"$this->view->order_ar"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"output.xdebug":
+	{
+		"height": 26.0
+	},
+	"pinned_build_system": "",
+	"project": "mir24.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"17":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"18":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"19":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"20":
+				{
+					"group": 0,
+					"index": 3
+				},
+				"21":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"22":
+				{
+					"group": 0,
+					"index": 5
+				},
+				"23":
+				{
+					"group": 1,
+					"index": 0
+				},
+				"24":
+				{
+					"group": 1,
+					"index": 1
+				},
+				"25":
+				{
+					"group": 2,
+					"index": 0
+				},
+				"26":
+				{
+					"group": 2,
+					"index": 1
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						2,
+						1
+					],
+					[
+						0,
+						1,
+						1,
+						2
+					],
+					[
+						1,
+						1,
+						2,
+						2
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					0.950980392157,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
