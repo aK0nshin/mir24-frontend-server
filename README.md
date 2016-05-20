@@ -9,22 +9,21 @@ mir24.tv 2016 website development
 6 .php artisan migrate
 7. configure apache2 server
 
-<VirtualHost *:80>
-    ServerAdmin webmaster@localhost
-    DocumentRoot /path/to/mir24/public
-
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
-
-    <Directory /path/to/mir24>
-        Options Indexes FollowSymLinks MultiViews
-        AllowOverride all
-        Order allow,deny
-        allow from all
-        Require all granted
-    </Directory>
-
-</VirtualHost>
+><VirtualHost *:80>
+>    ServerAdmin webmaster@localhost
+>    DocumentRoot /path/to/mir24/public
+>
+>    ErrorLog ${APACHE_LOG_DIR}/error.log
+>    CustomLog ${APACHE_LOG_DIR}/access.log combined
+>
+>    <Directory /path/to/mir24>
+>        Options Indexes FollowSymLinks MultiViews
+>        AllowOverride all
+>        Order allow,deny
+>        allow from all
+>        Require all granted
+>    </Directory>
+></VirtualHost>
 
 ##Manifest
 ####Third party libraries used  
