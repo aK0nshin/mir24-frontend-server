@@ -7,7 +7,7 @@ mir24.tv 2016 website development
 4. sh deploy.sh
 5. create database mir24
 6 .php artisan migrate
-7. configure apache2 server
+7. configure apache2 server example:
 ```
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
