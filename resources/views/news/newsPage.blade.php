@@ -39,7 +39,7 @@
 								<!-- Entry Image
 								============================================= -->
 								<div class="entry-image">
-									<a href="#"><img src="img/page.jpg" alt="Название картинки"></a>
+									<a href="#"><img src="{{ URL::asset('img/page.jpg') }}" alt="Название картинки"></a>
 								</div><!-- .entry-image end -->
 
 								<!-- Entry Content
