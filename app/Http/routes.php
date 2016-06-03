@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('article', 'ArticleController');
+
+Route::get('/news/{id}', 'ArticleController@news')->where('id', '[0-9]+');
