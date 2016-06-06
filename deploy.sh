@@ -13,5 +13,8 @@ echo "cache & config..."
 php artisan cache:clear
 php artisan config:clear
 composer dump-autoload
+echo "database & migrations..."
+createdb -e -h localhost -p 5432 mir24
+php artisan migrate
 
 echo "Complete"

@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
+Route::resource('/', 'MainController');
+
+Route::get('/welcome', function () {
     return view('welcome');
+});
+
+Route::resource('article', 'ArticleController');
+
+Route::get('/news/{id}', 'ArticleController@news')->where('id', '[0-9]+');
+
+Route::get('/news', function () {
+    return view('news.newsPage');
 });
