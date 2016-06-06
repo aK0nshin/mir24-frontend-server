@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.news')
 @section('title', 'Статья')
 @section('content')
 <!-- Content
