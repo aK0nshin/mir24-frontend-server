@@ -28,7 +28,7 @@
 
     <!-- Page Title
     ============================================= -->
-    <title>МИР 24 | Статья</title>
+    <title>МИР 24 | @yield('title')</title>
 
 </head>
 
@@ -147,11 +147,9 @@
 
     <!-- Content
     ============================================= -->
-    <div class="container">
-        
-        @yield('content')
-        
-    </div> <!-- #content end -->
+<div class="container">
+@yield('content')
+</div> <!-- #content end -->
 
     <!-- Footer
         ============================================= -->
