@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main');
-});
+Route::resource('/', 'MainController');
 
 Route::get('/welcome', function () {
     return view('welcome');
