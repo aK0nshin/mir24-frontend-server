@@ -10,8 +10,11 @@ use mir24\Article;
 
 class ArticleController extends Controller
 {
-    public function news(Request $request, Article $id)
+    public function news(Request $request, $id)
     {
-      	return view('news.newsPage');
+        return view('news.newsPage', [
+            'text' => Article::findOrFail($id)->text,
+            'title' => Article::findOrFail($id)->title,
+        ]);
     }
 }
