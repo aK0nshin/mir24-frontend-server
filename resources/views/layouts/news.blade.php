@@ -24,6 +24,7 @@
     ============================================= -->
     <script   src="https://code.jquery.com/jquery-1.11.3.min.js"   integrity="sha256-7LkWEzqTdpEfELxcZZlS6wAx5Ff13zZ83lYO2/ujj7g="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="{{ URL::asset('js/plugins.js') }}" ></script>
+    <script type="text/javascript" src="{{ URL::asset('jquery.main.js') }}"></script>
 
     <!-- Page Title
     ============================================= -->
@@ -136,7 +137,7 @@
 <div class="container">
 @yield('content')
 </div> <!-- #content end -->
-<!-- Footer
+        <!-- Footer
         ============================================= -->
         <footer id="footer" class="dark">
 

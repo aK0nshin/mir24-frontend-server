@@ -13,6 +13,7 @@ class ArticleController extends Controller
     public function news(Request $request, $id)
     {
         return view('news.newsPage', [
+        	'shorttext' => Article::findOrFail($id)->shoorttext,
             'text' => Article::findOrFail($id)->text,
             'title' => Article::findOrFail($id)->title,
         ]);
