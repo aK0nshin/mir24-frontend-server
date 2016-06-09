@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AlphaDb extends Migration
+class InitDb extends Migration
 {
     /**
      * Run the migrations.
@@ -12,17 +12,17 @@ class AlphaDb extends Migration
      */
     public function up()
     {
-        Schema::create('article', function (Blueprint $table) {
+        Schema::create('articles', function (Blueprint $table) {
         $table->bigIncrements('id');
-        $table->dateTime('created_at');
-        $table->text('shorttext');
-        $table->text('text');
-        $table->string('title', 255);
-        $table->bigInteger('image_id');
-        $table->bigInteger('serie_id');
-        $table->bigInteger('video_id');
-        $table->text('copyright');
-        $table->bigInteger('created_by');
+        $table->nullableTimestamps();
+        $table->text('shorttext')->nullable();
+        $table->text('text')->nullable();
+        $table->string('title', 255)->nullable();
+        $table->bigInteger('image_id')->nullable();
+        $table->bigInteger('serie_id')->nullable();
+        $table->bigInteger('video_id')->nullable();
+        $table->text('copyright')->nullable();
+        $table->bigInteger('created_by')->nullable();
         });
         Schema::create('makeupfiles', function (Blueprint $table) {
         $table->bigIncrements('id');
@@ -228,7 +228,7 @@ class AlphaDb extends Migration
      */
     public function down()
     {
-        Schema::drop('article');
+        Schema::drop('articles');
         Schema::drop('makeupfiles');
         Schema::drop('attachment');
         Schema::drop('file');
