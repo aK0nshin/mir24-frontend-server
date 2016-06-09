@@ -30,14 +30,14 @@
                         <!-- Entry Title
                         ============================================= -->
                         <div class="entry-title">
-                            <?php echo $title; ?>
+                            {{$title}}
                         </div><!-- .entry-title end -->
 
                         <!-- Entry Content
                         ============================================= -->
                         <div class="entry-content notopmargin">
                         
-                            <?php echo $shorttext; ?>
+                            {{$shorttext}}
 
                             <div class="image-discription">
                                 <img src="{{ URL::asset('img/page.jpg') }}" alt="Название картинки">
@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                             
-                            <?php echo $text; ?>
+                            {{$text}}
 
                             <!-- Post Single - Content End -->
 
