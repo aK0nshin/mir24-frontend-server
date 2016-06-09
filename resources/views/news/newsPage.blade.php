@@ -40,7 +40,7 @@
                             <?php echo $shorttext; ?>
 
                             <div class="image-discription">
-                                <img src="{{ URL::asset('img/page.jpg') }}" alt="Название картинки">
+                                <img src="{{ URL::asset($image) }}" alt="Название картинки">
                                 <div class="image-row">
                                     <div class="image-row-title ">
                                         <span>REUTERS / Khalil Ashawi</span> Автор: Иван Иванов
@@ -51,7 +51,7 @@
                                 </div>
                             </div>
                             
-                            <?php echo $text; ?>
+                            <?php echo nl2br($text); ?>
 
                             <!-- Post Single - Content End -->
 

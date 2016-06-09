@@ -8,14 +8,19 @@ use mir24\Http\Requests;
 
 use mir24\Article;
 
+use mir24\Image;
+
 class ArticleController extends Controller
 {
     public function news(Request $request, $id)
     {
+        $art = Article::findOrFail($id);
+        $image = Image::findOrFail($art->image_id);
         return view('news.newsPage', [
-        	'shorttext' => Article::findOrFail($id)->shoorttext,
-            'text' => Article::findOrFail($id)->text,
-            'title' => Article::findOrFail($id)->title,
-        ]);
+            'shorttext' => $art->shoorttext,
+            'text' => $art->text,
+            'title' => $art->title,
+            'image' => $image->url,
+            ]);
     }
 }
