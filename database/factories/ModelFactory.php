@@ -19,3 +19,13 @@ $factory->define(mir24\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(mir24\Article::class, function (Faker\Generator $faker) {
+    return [
+        'shorttext' => $faker->paragraphs(10, true),
+        'title' => $faker->text,
+        'text' => $faker->paragraphs(40, true),
+        'copyright' => $faker->text,
+        'created_by' => $faker->randomNumber(2),
+    ];
+});

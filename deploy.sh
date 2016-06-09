@@ -16,5 +16,6 @@ composer dump-autoload
 echo "database & migrations..."
 createdb -e -h localhost -p 5432 mir24
 php artisan migrate
+php artisan db:seed
 
 echo "Complete"
