@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="{{ URL::asset('css/font-icons.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ URL::asset('css/animate.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ URL::asset('css/magnific-popup.css') }}" type="text/css" />
-    <link rel="stylesheet" href="{{ URL::asset('css/elastic.css') }}" type="text/css" />
 
     <link rel="stylesheet" href="{{ URL::asset('css/responsive.css') }}" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,6 +32,7 @@
 </head>
 
 <body class="stretched">
+
     <!-- Page Wrapper
     ============================================= -->
     <div id="wrapper" class="clearfix">
@@ -130,28 +130,13 @@
             </div>
 
         </div><!-- #page-menu end -->
-            <section id="slider" class="slider-parallax clearfix">
 
-            <div id="ei-slider" class="ei-slider">
-                <ul class="ei-slider-large">
-
-                    <li class="dark">
-                        <img src="{{ URL::asset('img/back-big-1.jpg') }}" alt="Slider 1" />
-                        <div class="ei-title">
-                            <h2><span>Поехали!</span></h2>
-                            <h3><span>Ровно в 05:01 мск ракета-носитель "Союз-2.1а" с тремя спутниками "на борту" рванула ввысь, открыв принципиально новую страницу в истории отечественной космонавтики.</span></h3>
-                        </div>
-                    </li>
-
-        </section>
-
-    <!-- Content
-    ============================================= -->
+        <!-- Content
+        ============================================= -->
 <div class="container">
 @yield('content')
 </div> <!-- #content end -->
-
-    <!-- Footer
+<!-- Footer
         ============================================= -->
         <footer id="footer" class="dark">
 
