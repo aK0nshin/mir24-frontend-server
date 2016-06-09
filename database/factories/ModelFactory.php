@@ -22,10 +22,9 @@ $factory->define(mir24\User::class, function (Faker\Generator $faker) {
 
 $factory->define(mir24\Article::class, function (Faker\Generator $faker) {
     return [
-        'created_at'=> '1',
-        'shorttext' => $faker->paragraphs(2)[0],
-        'title' => $faker->title,
-        'text' => $faker->paragraphs(5)[0],
+        'shorttext' => $faker->paragraphs(10, true),
+        'title' => $faker->text,
+        'text' => $faker->paragraphs(30, true),
         'copyright' => $faker->text,
         'created_by' => $faker->randomNumber(2),
     ];
