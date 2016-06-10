@@ -26,7 +26,7 @@
                             <li><i class="icon-calendar3"></i> 11 Марта 2016</li>
                             <li><i class="icon-facetime-video"></i> Видео рубрика</li>
                         </ul><!-- .entry-meta end -->
-                        
+
                         <!-- Entry Title
                         ============================================= -->
                         <div class="entry-title">
@@ -40,7 +40,7 @@
                             {{$shorttext}}
 
                             <div class="image-discription">
-                                <img src="{{ URL::asset('img/page.jpg') }}" alt="Название картинки">
+                                <img src="{{ URL::asset($image) }}" alt="Название картинки">
                                 <div class="image-row">
                                     <div class="image-row-title ">
                                         <span>REUTERS / Khalil Ashawi</span> Автор: Иван Иванов
@@ -51,19 +51,16 @@
                                 </div>
                             </div>
                             
-                            {{$text}}
+                            {{nl2br($text)}}
 
                             <!-- Post Single - Content End -->
 
                             <!-- Tag Cloud
                             ============================================= -->
                             <div class="tagcloud clearfix bottommargin">
-                                <a href="#">политика</a>
-                                <a href="#">спорт</a>
-                                <a href="#">новости</a>
-                                <a href="#">медия</a>
-                                <a href="#">криминал</a>
-                                <a href="#">музыка</a>
+                                @foreach ($tags as $currentTag)
+                                <a href="#">{{ $currentTag }}</a>
+                                @endforeach
                             </div><!-- .tagcloud end -->
 
                             <div class="clear"></div>
@@ -104,7 +101,7 @@
                     </div><!-- .entry end -->
 
                 </div>
-                                
+
                 <!-- Posts
                 ============================================= -->
                 <div id="posts" class="post-grid grid-3 clearfix">
@@ -120,7 +117,7 @@
                             <p>В праве России терроризм определяется как идеология насилия и практика воздействия на общественное сознание, на принятие решений органами государственной власти. </p>
                         </div>
                     </div>
-                    
+
                     <div class="entry clearfix">
                         <div class="entry-image">
                             <a href="img/empty-1.jpg" data-lightbox="image"><img class="image_fade" src="{{ URL::asset('img/empty-1.jpg') }}" alt="Статья"></a>
@@ -146,9 +143,9 @@
                     </div>
 
                 </div><!-- #posts end -->   
-                
+
                 <p><a href="#"><img src="{{ URL::asset('img/ad-big.jpg') }}" alt="Реклама"></a></p>
-                
+
                 <!-- Posts
                 ============================================= -->
                 <div id="posts" class="post-grid grid-3 clearfix">
@@ -164,7 +161,7 @@
                             <li><i class="icon-clock"></i> 11:14, 24 февраля</li>
                         </ul>
                     </div>
-                    
+
                     <div class="entry clearfix noborder nobottommargin">
                         <div class="entry-image">
                             <a href="img/empty-2.jpg" data-lightbox="image"><img class="image_fade" src="{{ URL::asset('img/empty-2.jpg') }}" alt="Статья"></a>
@@ -188,7 +185,7 @@
                             <li><i class="icon-clock"></i> 10:45, 12 февраля</li>
                         </ul>
                     </div>
-                    
+
                     <div class="entry clearfix noborder nobottommargin">
                         <div class="entry-image">
                             <a href="img/empty-2.jpg" data-lightbox="image"><img class="image_fade" src="{{ URL::asset('img/empty-2.jpg') }}" alt="Статья"></a>
@@ -200,7 +197,7 @@
                             <li><i class="icon-clock"></i> 21:34, 14 февраля</li>
                         </ul>
                     </div>
-                    
+
                     <div class="entry clearfix noborder nobottommargin">
                         <div class="entry-image">
                             <a href="img/empty-2.jpg" data-lightbox="image"><img class="image_fade" src="{{ URL::asset('img/empty-2.jpg') }}" alt="Статья"></a>
@@ -226,9 +223,9 @@
                     </div>
 
                 </div><!-- #posts end -->
-                
+
                 <p><a href="#"><img src="{{ URL::asset('img/ad-yd.jpg') }}" alt="Реклама"></a></p>
-                
+
                 <!-- Posts
                 ============================================= -->
                 <div id="posts" class="post-grid grid-2 clearfix">
@@ -244,7 +241,7 @@
                             <p>В праве России терроризм определяется как идеология насилия и практика воздействия на общественное сознание, на принятие решений органами государственной власти. </p>
                         </div>
                     </div>
-                    
+
                     <div class="entry clearfix noborder nobottommargin">
                         <div class="entry-image">
                             <a href="img/empty-1.jpg" data-lightbox="image"><img class="image_fade" src="{{ URL::asset('img/empty-1.jpg') }}" alt="Статья"></a>
@@ -260,16 +257,16 @@
                 </div><!-- #posts end -->   
 
             </div><!-- .postcontent end -->
-            
-        
+
+
 
             <!-- Sidebar
             ============================================= -->
             <div class="sidebar nobottommargin col_last clearfix">
                 <div class="sidebar-widgets-wrap">
-                
+
                     <a href="#"><img src="{{ URL::asset('img/ad-1.jpg') }}" alt="Реклама"></a>
-                    
+
                     <div id="text" class="widget clearfix">
 
                         <h4>Новости дня</h4>
@@ -288,7 +285,7 @@
                         <h4>Автомобили Porsche</h4>
                         <p style="font-size: small"><img src="{{ URL::asset('img/tgb-2.jpg') }}" alt="Реклама" align="left">У каждой легенды есть свое начало. Легенда 718 началась еще в 1953 году. На гоночном треке. Задача была вскоре были достигнуты конкретные цели. Новые 4-цилиндровые двигатели с турбонаддувом и типичной для Porsche оппозитной конструкцией свидетельствуют не только о нашем ответственном <a href="#">отношении к окружающей среде</a>, но и заботе.</p>                                 
                     </div>
-                    
+
                     <div id="p-carousel" class="widget clearfix">
 
                         <h4>Фотолента</h4>
@@ -329,11 +326,11 @@
                         </div>
 
                     </div>
-                    
+
                     <div class="widget clearfix noborder nomargin">
-                    <a href="#"><img src="{{ URL::asset('img/ad-2.jpg') }}" alt="Реклама"></a>
+                        <a href="#"><img src="{{ URL::asset('img/ad-2.jpg') }}" alt="Реклама"></a>
                     </div>
-                    
+
                     <div id="post-lists" class="widget clearfix">
 
                         <h4 class="highlight-me">Новости партнеров</h4>
@@ -371,7 +368,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="spost clearfix noborder nomargin">
                                 <div class="entry-image">
                                     <a href="#" class="nobg"><img src="{{ URL::asset('img/news.jpg') }}" alt=""></a>
@@ -382,7 +379,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="spost clearfix noborder nomargin">
                                 <div class="entry-image">
                                     <a href="#" class="nobg"><img src="{{ URL::asset('img/news.jpg') }}" alt=""></a>
@@ -395,25 +392,25 @@
                             </div>
 
                         </div>
-                        
+
                     </div>
-                    
+
                     <div class="widget clearfix noborder nomargin">
-                    <a href="#"><img src="{{ URL::asset('img/ad-3.jpg') }}" alt="Реклама"></a>
+                        <a href="#"><img src="{{ URL::asset('img/ad-3.jpg') }}" alt="Реклама"></a>
                     </div>
-            
+
                     <div class="widget clearfix">
 
                         <h4>Вы дальнобойщиков поддерживаете?</h4>
-                           <input type="radio" name="browser" value="1"> Конечно да, они как мы<Br>
-                           <input type="radio" name="browser" value="2"> Не поддерживаю, мешают<Br>
-                           <input type="radio" name="browser" value="3"> Что такое Платон?<Br>
-                           <input type="radio" name="browser" value="3"> Они мне не нравятся<Br>
-                           <input type="radio" name="browser" value="3"> Я поодерживаю всех!<Br>
-                           <input type="radio" name="browser" value="3"> Я мне дадут?<Br>
-                           <input type="radio" name="browser" value="3"> Я непонимаю ваших вопросов<Br>
-                           <Br>
-                           <a href="#" class="button button-mini"><i class="icon-checkmark"></i>Голосуем</a>
+                        <input type="radio" name="browser" value="1"> Конечно да, они как мы<Br>
+                        <input type="radio" name="browser" value="2"> Не поддерживаю, мешают<Br>
+                        <input type="radio" name="browser" value="3"> Что такое Платон?<Br>
+                        <input type="radio" name="browser" value="3"> Они мне не нравятся<Br>
+                        <input type="radio" name="browser" value="3"> Я поодерживаю всех!<Br>
+                        <input type="radio" name="browser" value="3"> Я мне дадут?<Br>
+                        <input type="radio" name="browser" value="3"> Я непонимаю ваших вопросов<Br>
+                        <Br>
+                        <a href="#" class="button button-mini"><i class="icon-checkmark"></i>Голосуем</a>
                     </div>                          
 
                 </div>
