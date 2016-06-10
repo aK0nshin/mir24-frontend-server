@@ -13046,8 +13046,224 @@ body:not(.no-transition) #wrapper,
 .image-row-text p{
 	margin: 0 0 10px;
 }
+.entry-image-info{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	padding: 0 30px 5px 15px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0+0,1+100 */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.entry-image-info .title{
+	font-size: 14px;
+	line-height: 18px;
+}
+.entry-image-info .title a{
+	color: #fff;
+	text-decoration: none;
+	padding: 30px 0 9px;
+	display: block;
+}
+#content .entry-image-info .title p{
+	margin: 0;
+	font-size: 14px;
+	line-height: 17px;
+}
+.entry-image-info .title h3{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #fff;
+	margin: 0 0 7px;
+}
+.tags{
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+.tags li{
+	float: left;
+	margin: 0 0 5px 23px;
+}
+.tags li:first-child{
+	margin-left: 0;
+}
+.tags a{
+	display: block;
+	padding: 0 0 0 9px;
+	position: relative;
+	color: #fff;
+}
+.tags a:after{
+	content:'';
+	background: #b2d237;
+	width: 5px;
+	height: 10px;
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.tags a:hover{
+	color: #b2d237;
+}
+.tags .type1 a:after{
+	content:'';
+	background: #53b954;
+	width: 5px;
+	height: 10px;
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.tags .type1 a:hover{
+	color: #53b954;
+}
+.tags .type2 a:after{
+	content:'';
+	background: #01ac6c;
+	width: 5px;
+	height: 10px;
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.tags .type2 a:hover{
+	color: #01ac6c;
+}
+.tags .type3 a:after{
+	content:'';
+	background: #1f93d1;
+	width: 5px;
+	height: 10px;
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.tags .type3 a:hover{
+	color: #1f93d1;
+}
+.tags .type4 a:after{
+	content:'';
+	background: #1583c6;
+	width: 5px;
+	height: 10px;
+	position: absolute;
+	left: 0;
+	top: 4px;
+}
+.tags .type4 a:hover{
+	color: #1583c6;
+}
+.text-holder{
+	overflow: hidden;
+}
+.text-holder .entry{
+	float: right;
+	width: 240px;
+	margin: 0 0 20px 20px;
+	padding: 0;
+	border: none;
+}
+.text-holder .entry-title h2{
+	font-size: 18px;
+	line-height: 22px;
+}
+.text-holder .entry-title h2 a{
+	color: #1f93d1;
+}
+.text-holder .entry-title h2 a:hover{
+	color: #1479b9;
+}
+.text-holder .entry-image{
+	margin: 0 0 14px;
+}
+.text-holder .entry-image span{
+	display: block;
+	padding: 7px 0 0;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	color: #959595;
+}
+.heading{
+	overflow: hidden;
+	margin: 0 0 20px;
+}
+.heading .entry-meta{
+	margin: 9px 0 0;
+	overflow: hidden;
+}
+.social-list{
+	float: right;
+	margin:0 -11px 0 30px;
+	padding:0;
+	list-style:none;
+}
+.social-list li{
+	float: left;
+	margin: 0 11px 10px 0;
+}
+.social-list .social-icon{
+	width: 64px;
+	height: 32px;
+	line-height: 30px !important;
+	font-size: 14px;
+	text-align: left;
+	color: #fff;
+	position: relative;
+	margin: 0;
+}
+.social-list .social-icon i{
+	width: 30px;
+	text-align: center;
+}
+.social-list .num{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 34px;
+	height: 32px;
+	font-size: 12px;
+	line-height: 32px;
+	text-align: center;
+}
+.social-list .social-icon:hover i:first-child{
+	margin-top:-30px;
+}
+
+@media screen and (max-width: 992px){
+	#content .entry-image-info .title p{
+		display: none;
+	}
+}
+@media screen and (max-width: 767px){
+	.text-holder .entry{
+		float: none;
+		width: 100%;
+		margin: 10px 0 15px;
+		padding: 0 0 15px;
+		border-bottom: 1px solid #eee;
+	}
+	.single-post .entry-content .text-holder .entry-image{
+		max-width: 100%;
+	}
+	.social-list{
+		margin: 0 0 15px;
+		float: none;
+		overflow: hidden;
+	}
+}
 @media screen and (max-width: 480px){
 	.heading-box{
 		padding: 4px 160px 4px 10px;
 	}
 }
+

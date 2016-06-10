@@ -22,10 +22,42 @@
 
                         <!-- Entry Meta
                         ============================================= -->
-                        <ul class="entry-meta clearfix">
-                            <li><i class="icon-calendar3"></i> 11 Марта 2016</li>
-                            <li><i class="icon-facetime-video"></i> Видео рубрика</li>
-                        </ul><!-- .entry-meta end -->
+                        <div class="heading">
+                            <ul class="social-list">
+                                <li>
+                                    <a title="Facebook" class="social-icon si-colored si-facebook" href="#">
+                                        <i class="icon-facebook"></i>
+                                        <i class="icon-facebook"></i>
+                                        <span class="num">10</span>
+                                     </a>
+                                </li>
+                                <li>
+                                    <a title="Twitter" class="social-icon si-colored si-twitter" href="#">
+                                        <i class="icon-twitter"></i>
+                                        <i class="icon-twitter"></i>
+                                        <span class="num">23</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="Google Plus" class="social-icon si-colored si-gplus" href="#">
+                                        <i class="icon-gplus"></i>
+                                        <i class="icon-gplus"></i>
+                                        <span class="num">6</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="Vk" class="social-icon si-colored si-vk" href="#">
+                                        <i class="icon-vk"></i>
+                                        <i class="icon-vk"></i>
+                                        <span class="num">321</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="entry-meta clearfix">
+                                <li><i class="icon-calendar3"></i> 11 Марта 2016</li>
+                                <li><i class="icon-facetime-video"></i> Видео рубрика</li>
+                            </ul><!-- .entry-meta end -->
+                        </div>
 
                         <!-- Entry Title
                         ============================================= -->
@@ -400,7 +432,6 @@
                     </div>
 
                     <div class="widget clearfix">
-
                         <h4>Вы дальнобойщиков поддерживаете?</h4>
                         <input type="radio" name="browser" value="1"> Конечно да, они как мы<Br>
                         <input type="radio" name="browser" value="2"> Не поддерживаю, мешают<Br>
@@ -408,7 +439,7 @@
                         <input type="radio" name="browser" value="3"> Они мне не нравятся<Br>
                         <input type="radio" name="browser" value="3"> Я поодерживаю всех!<Br>
                         <input type="radio" name="browser" value="3"> Я мне дадут?<Br>
-                        <input type="radio" name="browser" value="3"> Я непонимаю ваших вопросов<Br>
+                        <input type="radio" name="browser" value="3"> Я не понимаю ваших вопросов<Br>
                         <Br>
                         <a href="#" class="button button-mini"><i class="icon-checkmark"></i>Голосуем</a>
                     </div>                          
