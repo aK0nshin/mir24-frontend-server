@@ -19,6 +19,10 @@ class CreateTagsTable extends Migration
         $table->boolean('super')->nullable();
         $table->boolean('geo')->nullable();
         });
+        Schema::create('articles_tags', function (Blueprint $table) {
+        $table->bigInteger('article_id');
+        $table->bigInteger('tags_id');
+        });
     }
 
     /**
@@ -29,5 +33,6 @@ class CreateTagsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('tags');
+        Schema::dropIfExists('articles_tags');
     }
 }
