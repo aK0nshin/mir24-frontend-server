@@ -68,7 +68,7 @@
                         <!-- Entry Content
                         ============================================= -->
                         <div class="entry-content notopmargin">
-                        
+
                             {{$shorttext}}
 
                             <div class="image-discription">
@@ -82,7 +82,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             {{nl2br($text)}}
 
                             <!-- Post Single - Content End -->
@@ -174,7 +174,7 @@
                         </div>
                     </div>
 
-                </div><!-- #posts end -->   
+                </div><!-- #posts end -->
 
                 <p><a href="#"><img src="{{ URL::asset('img/ad-big.jpg') }}" alt="Реклама"></a></p>
 
@@ -286,7 +286,7 @@
                         </div>
                     </div>
 
-                </div><!-- #posts end -->   
+                </div><!-- #posts end -->
 
             </div><!-- .postcontent end -->
 
@@ -309,13 +309,13 @@
                         <p><a href="#">Путин отказал террористам в возможности полного перемирия в Сирии <i class="icon-line-video"></i></a></p>
                         <a href="#" class="button button-mini">Все новости</a>
 
-                    </div>                                                                                      
+                    </div>
 
                     <div class="widget clearfix">
                         <h4>Сбербанк России</h4>
                         <p style="font-size: small"><img src="{{ URL::asset('img/tgb-1.jpg') }}" alt="Реклама" align="left">Сбербанк проводит широкий спектр операций с наличностью. Выдача наличных средств без ограничения суммы в пределах остатка на счете клиента. Клиенты имеют возможность получить необходимые консультации по вопросу открытия <a href="#">юридических и индивидуальных предпринимателей</a></p>
                         <h4>Автомобили Porsche</h4>
-                        <p style="font-size: small"><img src="{{ URL::asset('img/tgb-2.jpg') }}" alt="Реклама" align="left">У каждой легенды есть свое начало. Легенда 718 началась еще в 1953 году. На гоночном треке. Задача была вскоре были достигнуты конкретные цели. Новые 4-цилиндровые двигатели с турбонаддувом и типичной для Porsche оппозитной конструкцией свидетельствуют не только о нашем ответственном <a href="#">отношении к окружающей среде</a>, но и заботе.</p>                                 
+                        <p style="font-size: small"><img src="{{ URL::asset('img/tgb-2.jpg') }}" alt="Реклама" align="left">У каждой легенды есть свое начало. Легенда 718 началась еще в 1953 году. На гоночном треке. Задача была вскоре были достигнуты конкретные цели. Новые 4-цилиндровые двигатели с турбонаддувом и типичной для Porsche оппозитной конструкцией свидетельствуют не только о нашем ответственном <a href="#">отношении к окружающей среде</a>, но и заботе.</p>
                     </div>
 
                     <div id="p-carousel" class="widget clearfix">
@@ -442,7 +442,7 @@
                         <input type="radio" name="browser" value="3"> Я не понимаю ваших вопросов<Br>
                         <Br>
                         <a href="#" class="button button-mini"><i class="icon-checkmark"></i>Голосуем</a>
-                    </div>                          
+                    </div>
 
                 </div>
 
