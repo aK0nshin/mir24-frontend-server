@@ -21,7 +21,7 @@ class CreateTagsTable extends Migration
         });
         Schema::create('articles_tags', function (Blueprint $table) {
         $table->bigInteger('article_id');
-        $table->bigInteger('tags_id');
+        $table->bigInteger('tag_id');
         });
     }
 
