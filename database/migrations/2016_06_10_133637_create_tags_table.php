@@ -19,10 +19,6 @@ class CreateTagsTable extends Migration
         $table->boolean('super')->nullable();
         $table->boolean('geo')->nullable();
         });
-        Schema::create('articles_tags', function (Blueprint $table) {
-        $table->bigInteger('article_id');
-        $table->bigInteger('tag_id');
-        });
     }
 
     /**
