@@ -14,7 +14,12 @@ php artisan cache:clear
 php artisan config:clear
 composer dump-autoload
 echo "database & migrations..."
-createdb -e -h localhost -p 5432 mir24
+createuser -e -d -r -s -P -h localhost -p 5432 mir24
+createdb -e -U mir24 -h localhost -p 5432 mir24
+echo -n Password: 
+read -s password
+echo
+sed -i -- "s/secret/$password/g" .env
 php artisan migrate
 php artisan db:seed
 
