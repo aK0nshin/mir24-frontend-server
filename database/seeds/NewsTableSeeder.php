@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class ArticlesTableSeeder extends Seeder
+class NewsTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class ArticlesTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(mir24\Article::class, 20)->create();
+        factory(mir24\News::class, 20)->create();
     }
 }
