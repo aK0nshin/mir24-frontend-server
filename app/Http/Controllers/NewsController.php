@@ -12,6 +12,6 @@ class NewsController extends Controller
 {
     public function news(Request $request, News $id)
     {
-      	return view('news.newsPage');
+      	return view('news.newsPage', ['promo' => 'Hello World']);
     }
 }
