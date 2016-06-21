@@ -19,7 +19,7 @@ Route::get('/welcome', function () {
 
 Route::resource('article', 'ArticleController');
 
-Route::get('/news/{id}', 'ArticleController@news')->where('id', '[0-9]+');
+Route::get('/news/{id}', 'NewsController@news')->where('id', '[0-9]+');
 
 Route::get('/news', function () {
     return view('news.newsPage');

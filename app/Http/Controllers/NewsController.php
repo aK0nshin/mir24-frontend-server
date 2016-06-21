@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 
 use mir24\Http\Requests;
 
-use mir24\Article;
+use mir24\News;
 
-class ArticleController extends Controller
+class NewsController extends Controller
 {
-    public function news(Request $request, Article $id)
+    public function news(Request $request, News $id)
     {
       	return view('news.newsPage');
     }

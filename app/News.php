@@ -15,22 +15,22 @@ class News extends Model
 
     public function relatedNews()
     {
-        return $this->belongsToMany('App\News');
+        return $this->belongsToMany('App\News', 'news_news', 'news_id', 'related_news');
     }
 
     public function creator()
     {
-        return $this->hasOne('App\User', 'created_by');
+        return $this->belongsTo('App\User', 'created_by');
     }
 
     public function lastEditor()
     {
-        return $this->hasOne('App\User', 'last_edit_by');
+        return $this->belongsTo('App\User', 'last_edit_by');
     }
 
     public function image()
     {
-        return $this->hasOne('App\Image');
+        return $this->belongsTo('App\Image');
     }
 
     public function status()
