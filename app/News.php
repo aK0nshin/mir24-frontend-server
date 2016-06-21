@@ -6,13 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class News extends Model
 {
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
-    protected $table = 'article_news';
-
     public function relatedNews()
     {
         return $this->belongsToMany('App\News', 'news_news', 'news_id', 'related_news');
